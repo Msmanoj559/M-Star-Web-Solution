@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # M-Star Web Solution
 
 ## Project Vision
@@ -118,3 +119,7 @@ VITE_APP_URL=http://localhost:5173
 ## Current Phase
 
 **Phase 1: Technical Foundation** - Establishing the project structure, configuring dependencies, and building the welcome screen and core layout components.
+=======
+# M-Star-Web-Solution
+Multi-tenant, modular white-label SaaS platform for multiple business categories.
+>>>>>>> 25945aa421305a6d4c680dcef6a3d2ffe1f7b31e
