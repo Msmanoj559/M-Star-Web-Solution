@@ -1,0 +1,40 @@
+{
+  "name": "m-star-web-solution",
+  "version": "1.0.0",
+  "description": "M-Star Web Solution - Multi-tenant SaaS platform for businesses to create and manage their branded digital platforms",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
+    "test": "vitest run",
+    "test:watch": "vitest watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "lucide-react": "^0.468.0",
+    "postcss": "^8.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.5",
+    "tailwindcss": "^4.3.5",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "playwright": "^1.49.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.6.3",
+    "vitest": "^3.1.4"
+  }
+}

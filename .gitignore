@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+/*.local
+
+# Production
+dist/
+*.env*
+
+# Debug
+.vscode/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Environment variables (already in .env*)
+!.env.example
